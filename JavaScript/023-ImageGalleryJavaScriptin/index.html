@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery JavaScriptin avulla</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript" src="./script/showPic.js"></script>
+</head>
+
+<body>
+    <main>
+        <center>
+            <h1>Snapshots</h1>
+        </center>
+        <section>
+            <center>
+                <table>
+                    <tr>
+                        <td>
+                            <p style="text-align: center"><a href="./img/fireworks.jpeg" title="A Fireworks display"
+                                    onClick="showPic(this); return false;">Fireworks</a>
+                        </td>
+                        <td>
+                            <p style="text-align: center"><a href="./img/coffee.jpeg" title="A cuo of Black Coffee"
+                                    onClick="showPic(this); return false;">Coffee</a>
+                        </td>
+                        <td>
+                            <p style="text-align: center"><a href="./img/rose.jpeg" title="A red, red rose"
+                                    onClick="showPic(this); return false;">Rose</a>
+                        </td>
+                        <td>
+                            <p style="text-align: center"><a href="./img/bigben.jpeg" title="The famous clock"
+                                    onClick="showPic(this); return false;">Big Ben</a>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+            <img id="placeholder" src="./img/placeholder.png" alt="My Image Gallery" />
+        </section>
+        <p id="description">Choose an Image.</p>
+    </main>
+</body>
+
+</html>

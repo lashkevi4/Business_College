@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontti muotoilu size</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/layout.css">
+</head>
+
+<body>
+    <section class="container">
+
+        <h1 class="head"> Muuta fonttikokoa Javascriptillä</h1>
+
+        <p class="text">16px. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, deleniti?
+        </p>
+
+        <h2 class="header2">Tämän listan fonttikoko muuttuu napista painamalla</h2>
+        <ol id="list">
+            <li class="fonts-list">20px. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, dolorum.</li>
+            <li class="fonts-list">24px Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, facilis.</li>
+            <li class="fonts-list">28px Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, facilis.</li>
+            <li class="fonts-list">32px Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, facilis.</li>
+            <li class="fonts-list">16px Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, facilis.</li>
+        </ol>
+
+        <footer>
+            <button id="button" class="button" onclick="changeFont()">Change size</button>
+            <p class="current-size">Current size: <span id="current-size"> 16px </p>
+        </footer>
+    </section>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    width: 450px;
+    margin: 5px auto 5px auto;
+    border: solid black 2px;
+    border-radius: 10px;
+
+    background-color: gainsboro;
+    background-image: linear-gradient(to right, gainsboro, white);
+    padding: 1em;
+    /* outline: solid black 1px; */
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.heading {
+    float: right;
+    width: 70%;
+    /* outline: solid red 1px; */
+}
+
+.heading h1 {
+    margin: 0;
+}
+
+.image {
+    margin: 0;
+    float: left;
+    width: 30%;
+    /* outline: solid green 1px; */
+}
+
+.image img {
+    max-width: 100%;
+    padding: 5px;
+    border: solid lightgrey 1px;
+    box-shadow: 3px 3px 3px 3px grey;
+}
+
+.text {
+    float: left;
+    padding-right: 0;
+    width: 70%;
+    /* outline: solid blue 1px; */
+}
+
+.text p {
+    margin: 0;
+}
+
+.revers {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.revers .heading {
+    float: left;
+    /* width: 70%; */
+}
+
+.revers .image {
+    float: right;
+    width: 30%;
+    /* outline: solid green 1px; */
+}
+
+.revers .text {
+    float: right;
+    padding-right: 0;
+    width: 70%;
+    /* outline: solid blue 1px; */
+}
+
+@media screen and (max-width:425px) {
+    body {
+        margin: 0;
+        /* background-color: blue; */
+    }
+
+    .container {
+        margin: 0;
+        width: 100%;
+        min-width: 620px;
+        padding: 10px;
+        /* outline: solid red 10px; */
+    }
+}

@@ -1,0 +1,33 @@
+main {
+    width: 458px;
+    height: 470px;
+    justify-content: center;
+
+}
+
+section {
+    background-color: rgba(128, 128, 128, 0.345);
+}
+
+h1 {
+    font: 25px;
+    color: gray;
+}
+
+td {
+    padding: 10px;
+    font-size: 1.5rem;
+    line-break: normal;
+}
+
+p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#placeholder {
+    border: 1px solid grey;
+    margin: 15px;
+    border: 10px solid white;
+
+}
